@@ -1,0 +1,15 @@
+C:\Programming\AILab\Sudoku\bin\Debug\Sudoku.dll
+C:\Programming\AILab\Sudoku\bin\Debug\Sudoku.pdb
+C:\Programming\AILab\Sudoku\obj\Debug\ResolveAssemblyReference.cache
+C:\Programming\AILab\Sudoku\obj\Debug\Sudoku.dll
+C:\Programming\AILab\Sudoku\obj\Debug\Sudoku.pdb
+C:\Programming\Sudoku\Sudoku\bin\Debug\Sudoku.dll
+C:\Programming\Sudoku\Sudoku\bin\Debug\Sudoku.pdb
+C:\Programming\Sudoku\Sudoku\obj\Debug\ResolveAssemblyReference.cache
+C:\Programming\Sudoku\Sudoku\obj\Debug\Sudoku.dll
+C:\Programming\Sudoku\Sudoku\obj\Debug\Sudoku.pdb
+C:\Bruce N\Programming\Sudoku\Sudoku\bin\Debug\Sudoku.dll
+C:\Bruce N\Programming\Sudoku\Sudoku\bin\Debug\Sudoku.pdb
+C:\Bruce N\Programming\Sudoku\Sudoku\obj\Debug\ResolveAssemblyReference.cache
+C:\Bruce N\Programming\Sudoku\Sudoku\obj\Debug\Sudoku.dll
+C:\Bruce N\Programming\Sudoku\Sudoku\obj\Debug\Sudoku.pdb

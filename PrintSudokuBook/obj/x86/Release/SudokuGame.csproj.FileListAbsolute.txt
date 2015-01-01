@@ -1,0 +1,57 @@
+C:\Bruce N\Programming\Sudoku\PrintSudokuBook\bin\Release\SudokuGame.exe.manifest
+C:\Bruce N\Programming\Sudoku\PrintSudokuBook\bin\Release\SudokuGame.application
+C:\Bruce N\Programming\Sudoku\PrintSudokuBook\bin\Release\SudokuGame.exe
+C:\Bruce N\Programming\Sudoku\PrintSudokuBook\bin\Release\SudokuGame.pdb
+C:\Bruce N\Programming\Sudoku\PrintSudokuBook\bin\Release\Sudoku.dll
+C:\Bruce N\Programming\Sudoku\PrintSudokuBook\bin\Release\Sudoku.pdb
+C:\Bruce N\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Bruce N\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuPrintGridOld.baml
+C:\Bruce N\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuPlayGrid.g.cs
+C:\Bruce N\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuPrintGrid.g.cs
+C:\Bruce N\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuPrintGridOld.g.cs
+C:\Bruce N\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuOptions.g.cs
+C:\Bruce N\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuPrintGridDebug.g.cs
+C:\Bruce N\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\App.g.cs
+C:\Bruce N\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Bruce N\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuGame_MarkupCompile.cache
+C:\Bruce N\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuGame_MarkupCompile.lref
+C:\Bruce N\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuPlayGrid.baml
+C:\Bruce N\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuPrintGrid.baml
+C:\Bruce N\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuOptions.baml
+C:\Bruce N\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuPrintGridDebug.baml
+C:\Bruce N\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuGame.g.resources
+C:\Bruce N\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuGame.Properties.Resources.resources
+C:\Bruce N\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Bruce N\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Bruce N\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuGame.exe.manifest
+C:\Bruce N\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuGame.application
+C:\Bruce N\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuGame.exe
+C:\Bruce N\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuGame.pdb
+C:\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuGame.exe
+C:\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuGame.pdb
+C:\Programming\Sudoku\PrintSudokuBook\bin\Release\SudokuGame.exe.manifest
+C:\Programming\Sudoku\PrintSudokuBook\bin\Release\SudokuGame.application
+C:\Programming\Sudoku\PrintSudokuBook\bin\Release\SudokuGame.exe
+C:\Programming\Sudoku\PrintSudokuBook\bin\Release\SudokuGame.pdb
+C:\Programming\Sudoku\PrintSudokuBook\bin\Release\Sudoku.dll
+C:\Programming\Sudoku\PrintSudokuBook\bin\Release\Sudoku.pdb
+C:\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuGame.csprojResolveAssemblyReference.cache
+C:\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuPrintGridOld.baml
+C:\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuPlayGrid.g.cs
+C:\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuPrintGrid.g.cs
+C:\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuPrintGridOld.g.cs
+C:\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuOptions.g.cs
+C:\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuPrintGridDebug.g.cs
+C:\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\App.g.cs
+C:\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuGame_MarkupCompile.cache
+C:\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuGame_MarkupCompile.lref
+C:\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuPlayGrid.baml
+C:\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuPrintGrid.baml
+C:\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuOptions.baml
+C:\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuPrintGridDebug.baml
+C:\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuGame.g.resources
+C:\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuGame.Properties.Resources.resources
+C:\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuGame.csproj.GenerateResource.Cache
+C:\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuGame.exe.manifest
+C:\Programming\Sudoku\PrintSudokuBook\obj\x86\Release\SudokuGame.application

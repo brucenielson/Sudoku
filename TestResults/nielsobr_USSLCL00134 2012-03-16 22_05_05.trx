@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="209c0a65-9390-4846-a466-c1755414737c" name="nielsobr@USSLCL00134 2012-03-16 22:05:05" runUser="CORP\nielsobr" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="eea220ab-40d6-40e9-934b-77bf5a1f08ee">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="nielsobr_USSLCL00134 2012-03-16 22_05_05">
+      <DeploymentItem filename="C:\Bruce N\Programming\Sudoku\Sudoku\bin\Debug\Sudoku.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-16T22:05:05.9934932-06:00" queuing="2012-03-16T22:05:09.4567376-06:00" start="2012-03-16T22:05:09.6439400-06:00" finish="2012-03-16T22:05:21.6092934-06:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="40" executed="40" passed="40" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="USSLCL00134" outcome="Warning" timestamp="2012-03-16T22:05:07.3507106-06:00">
+        <Text>Deployment is currently disabled. The deployment item 'Sudoku.dll' on test 'TestSudoku.SudokuSolverTest.CheckForSolutionTest' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CheckForSolutionTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="fa9b5a98-11df-cc49-fac3-46a2c0f64ad4">
+      <DeploymentItems>
+        <DeploymentItem filename="Sudoku.dll" />
+      </DeploymentItems>
+      <Execution id="8763dd1a-66ec-4815-9007-a0f6dc4a2f66" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuSolverTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckForSolutionTest" />
+    </UnitTest>
+    <UnitTest name="PuzzleTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="716751e5-4a8b-99ba-38de-904dcf99d413">
+      <DeploymentItems>
+        <DeploymentItem filename="Sudoku.dll" />
+      </DeploymentItems>
+      <Execution id="01d8b5a4-aff9-4d5e-84d1-f1a0fed8f0b5" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuSolverTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PuzzleTest" />
+    </UnitTest>
+    <UnitTest name="IsValidArrayTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="1ad507a0-5b9a-581b-e458-ab84bc32d160">
+      <Execution id="1971d697-cd3c-41a4-8df7-1802ea0b9b97" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuSolutionTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsValidArrayTest" />
+    </UnitTest>
+    <UnitTest name="PairsByRowAndColumnTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="fb8d0f66-1952-3fa5-f41f-3e992361d3ef">
+      <DeploymentItems>
+        <DeploymentItem filename="Sudoku.dll" />
+      </DeploymentItems>
+      <Execution id="26562a82-876c-4b4e-8826-bf0e50a1e271" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuSolverTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PairsByRowAndColumnTest" />
+    </UnitTest>
+    <UnitTest name="UncoverCountBySubSquareTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="df32b477-d68b-2a2b-b301-d704a740e06b">
+      <DeploymentItems>
+        <DeploymentItem filename="Sudoku.dll" />
+      </DeploymentItems>
+      <Execution id="f6e408c9-e271-4e26-9e0c-2adde876a1e6" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuPuzzleTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UncoverCountBySubSquareTest" />
+    </UnitTest>
+    <UnitTest name="GetSolutionTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="dd354d43-207a-04dc-f6e6-9f0e1d3caca6">
+      <Execution id="62fc7b5c-66af-4fa1-97a7-19422bfd544e" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuSolverTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetSolutionTest" />
+    </UnitTest>
+    <UnitTest name="Step2UseSingletonsTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="aabce983-0847-8133-b6b4-ae8b0475dffb">
+      <DeploymentItems>
+        <DeploymentItem filename="Sudoku.dll" />
+      </DeploymentItems>
+      <Execution id="4cd5f187-6882-4f5d-a47e-08134b75aac1" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuSolverTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Step2UseSingletonsTest" />
+    </UnitTest>
+    <UnitTest name="SudokuPuzzleConstructorTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="cbaf69e5-bb1d-8df0-d456-f15e409b1c45">
+      <Execution id="044912ad-9842-4a28-9f39-ecec9814b639" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuPuzzleTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SudokuPuzzleConstructorTest" />
+    </UnitTest>
+    <UnitTest name="IsValidTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="a5bbbdc5-93ee-df0d-3653-ee172d550aca">
+      <DeploymentItems>
+        <DeploymentItem filename="Sudoku.dll" />
+      </DeploymentItems>
+      <Execution id="91b0b1d4-f87a-406d-9f3e-936f295a986f" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuSolutionTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsValidTest" />
+    </UnitTest>
+    <UnitTest name="FullSolverTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="486f69e0-56fc-2037-29f3-157fb3ae50a3">
+      <Execution id="2583cc3d-7055-44f1-ab18-553013d805a0" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuSolverTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FullSolverTest" />
+    </UnitTest>
+    <UnitTest name="FindSolutionTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="c786f71b-7d10-1c2a-4b32-86a35b6a4f84">
+      <DeploymentItems>
+        <DeploymentItem filename="Sudoku.dll" />
+      </DeploymentItems>
+      <Execution id="03d33870-d165-49f6-bf56-4a4b191dd218" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuSolverTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindSolutionTest" />
+    </UnitTest>
+    <UnitTest name="UncoverPuzzleTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="b101bcbb-27a3-55ce-2dd9-0f0f3a5bb264">
+      <DeploymentItems>
+        <DeploymentItem filename="Sudoku.dll" />
+      </DeploymentItems>
+      <Execution id="54384b58-5953-4eff-9102-aad8432f36de" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuPuzzleTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UncoverPuzzleTest" />
+    </UnitTest>
+    <UnitTest name="AttemptSetSudokuArrayTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="91db702d-a069-121c-623e-6db4435b1aba">
+      <DeploymentItems>
+        <DeploymentItem filename="Sudoku.dll" />
+      </DeploymentItems>
+      <Execution id="8001c005-f23d-462e-ba9f-5cedfd36d4d6" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuSolutionTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AttemptSetSudokuArrayTest" />
+    </UnitTest>
+    <UnitTest name="TestUnsolveableToTrivalTransition" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="eb717bdb-b632-ea94-6daf-0927684c8ade">
+      <DeploymentItems>
+        <DeploymentItem filename="Sudoku.dll" />
+      </DeploymentItems>
+      <Execution id="25f72a9e-112c-42c9-8a35-d117ab786ff6" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuPuzzleTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestUnsolveableToTrivalTransition" />
+    </UnitTest>
+    <UnitTest name="SudokuGridConstructorTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="4a57bcbc-c2e0-21d9-7139-dd191b24dab5">
+      <Execution id="18fbb08f-7dcd-4ca5-8f1b-749100a61242" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuSolutionTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SudokuGridConstructorTest" />
+    </UnitTest>
+    <UnitTest name="SudokuSolverConstructorTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="67db4d28-f094-a340-ae25-66f3a5741beb">
+      <Execution id="18ab2209-450b-4000-a83e-6f911354b917" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuSolverTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SudokuSolverConstructorTest" />
+    </UnitTest>
+    <UnitTest name="SingletonsByColumnTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="ebf6dfdb-90cf-f38c-6018-faa540ba0d72">
+      <DeploymentItems>
+        <DeploymentItem filename="Sudoku.dll" />
+      </DeploymentItems>
+      <Execution id="5d1a4343-af96-48fb-aedb-6c7ef5fe61f9" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuSolverTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SingletonsByColumnTest" />
+    </UnitTest>
+    <UnitTest name="MakeCopyTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="bc6cc949-a9b9-986d-2e2e-93bd454a56b0">
+      <DeploymentItems>
+        <DeploymentItem filename="Sudoku.dll" />
+      </DeploymentItems>
+      <Execution id="55c22ca9-3347-423c-bdb5-b238a46795a9" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuSolutionTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MakeCopyTest" />
+    </UnitTest>
+    <UnitTest name="WriteOutSudokuGridTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="933e71ec-78d1-7194-9f14-c69be4833ba2">
+      <Execution id="4757eb1e-9d36-41a3-a482-58224a18f4f5" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuGridTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WriteOutSudokuGridTest" />
+    </UnitTest>
+    <UnitTest name="FindValidNumberForTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="c37c5030-5bf8-5a4d-859d-184581b22311">
+      <DeploymentItems>
+        <DeploymentItem filename="Sudoku.dll" />
+      </DeploymentItems>
+      <Execution id="67cc90b5-a709-4a36-baeb-aca437aad28b" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuSolutionTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindValidNumberForTest" />
+    </UnitTest>
+    <UnitTest name="TestProblemsWithStep3FindPairs" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="50d73d16-c467-1990-6c2f-20f749cde691">
+      <DeploymentItems>
+        <DeploymentItem filename="Sudoku.dll" />
+      </DeploymentItems>
+      <Execution id="b2fdca2b-4655-45e3-ba85-9398fbb2dcee" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuSolverTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestProblemsWithStep3FindPairs" />
+    </UnitTest>
+    <UnitTest name="SingletonsByRowTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="6b9b857f-bbd3-0295-780c-7d7ce180e683">
+      <DeploymentItems>
+        <DeploymentItem filename="Sudoku.dll" />
+      </DeploymentItems>
+      <Execution id="918578e7-b334-4049-8e4b-0f36eca51add" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuSolverTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SingletonsByRowTest" />
+    </UnitTest>
+    <UnitTest name="NextSquareTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="88f57e9b-c6f8-a8c9-6bd0-511ff05cfb16">
+      <DeploymentItems>
+        <DeploymentItem filename="Sudoku.dll" />
+      </DeploymentItems>
+      <Execution id="58c0d5b6-94e8-47e6-91ab-9d70898c6b1e" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuSolutionTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NextSquareTest" />
+    </UnitTest>
+    <UnitTest name="AssessDifficultyTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="80155721-06d3-979c-8f6d-29dc41f17ef1">
+      <Execution id="df051e80-4843-455e-83f8-f68e9a4f6d36" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuPuzzleTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AssessDifficultyTest" />
+    </UnitTest>
+    <UnitTest name="SingletonsBySubsquareTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="1a1703db-8eff-c9cf-7c21-727ed5f67909">
+      <DeploymentItems>
+        <DeploymentItem filename="Sudoku.dll" />
+      </DeploymentItems>
+      <Execution id="bbc52923-cec3-42bb-9f07-4892ca33e70e" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuSolverTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SingletonsBySubsquareTest" />
+    </UnitTest>
+    <UnitTest name="InitializePuzzleTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="464cd04b-06f9-910c-d478-a5fa37cd2247">
+      <DeploymentItems>
+        <DeploymentItem filename="Sudoku.dll" />
+      </DeploymentItems>
+      <Execution id="49edc51c-509c-406f-858e-cef10e2ba3bb" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuPuzzleTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InitializePuzzleTest" />
+    </UnitTest>
+    <UnitTest name="TestSingletonsToFillInPuzzle" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="8759e944-8653-b38d-1a0f-ebb1d8b476a9">
+      <DeploymentItems>
+        <DeploymentItem filename="Sudoku.dll" />
+      </DeploymentItems>
+      <Execution id="1c719c22-5d1b-40ed-b8ab-f90753f22d08" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuPuzzleTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSingletonsToFillInPuzzle" />
+    </UnitTest>
+    <UnitTest name="DifficultyLevelTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="7b1184f2-6210-8f2c-db67-fcb554f7c797">
+      <Execution id="9eff7cbe-6318-4bcb-b356-4b437b672558" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuSolverTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DifficultyLevelTest" />
+    </UnitTest>
+    <UnitTest name="SetSudokuArrayTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="8828e05c-a42f-e363-e341-6794a476517b">
+      <DeploymentItems>
+        <DeploymentItem filename="Sudoku.dll" />
+      </DeploymentItems>
+      <Execution id="845cb048-038b-458e-8e29-03baba18e2d3" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuSolutionTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SetSudokuArrayTest" />
+    </UnitTest>
+    <UnitTest name="TestSudokuSolutionCreation" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="c2bb07ee-ec47-2144-fb15-eb859f70a4fb">
+      <Execution id="aa49dbfc-9b60-4dae-b571-84f545a320ed" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.TestCreateSudoku, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSudokuSolutionCreation" />
+    </UnitTest>
+    <UnitTest name="Step3UsePairsTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="04491180-eae4-f06f-187d-ebc0638faa7d">
+      <DeploymentItems>
+        <DeploymentItem filename="Sudoku.dll" />
+      </DeploymentItems>
+      <Execution id="4a7f7ce5-c99e-4b22-a236-7f29062163f7" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuSolverTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Step3UsePairsTest" />
+    </UnitTest>
+    <UnitTest name="FindSolveablePuzzleTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="8a2dec74-abc6-a0c9-7c0e-21c6df6bc9b0">
+      <DeploymentItems>
+        <DeploymentItem filename="Sudoku.dll" />
+      </DeploymentItems>
+      <Execution id="ed0d6dfb-f8e3-4468-ad46-308d3c0fd85b" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuPuzzleTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindSolveablePuzzleTest" />
+    </UnitTest>
+    <UnitTest name="BackSquareTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="32c2c6f6-2474-8918-6297-2116ff97cfeb">
+      <DeploymentItems>
+        <DeploymentItem filename="Sudoku.dll" />
+      </DeploymentItems>
+      <Execution id="c5d746af-5bcd-42b9-8770-e7af8aa0977c" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuSolutionTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BackSquareTest" />
+    </UnitTest>
+    <UnitTest name="ClearGuessesTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="f22be3fe-e6de-c94d-69d0-1f8a2b594bcc">
+      <DeploymentItems>
+        <DeploymentItem filename="Sudoku.dll" />
+      </DeploymentItems>
+      <Execution id="eeffb3cd-973e-4e5a-ab6c-375be8e8f88e" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuSolverTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ClearGuessesTest" />
+    </UnitTest>
+    <UnitTest name="UncoverInSubSquareTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="c57d37a4-c06f-80ba-35d3-1145d1503361">
+      <DeploymentItems>
+        <DeploymentItem filename="Sudoku.dll" />
+      </DeploymentItems>
+      <Execution id="3b6f69e9-3c84-42c8-8b8e-fa0ef6dc8230" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuPuzzleTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UncoverInSubSquareTest" />
+    </UnitTest>
+    <UnitTest name="PairsBySubSquareTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="6088445e-ad5f-0116-dac2-af0a24e5b1e7">
+      <DeploymentItems>
+        <DeploymentItem filename="Sudoku.dll" />
+      </DeploymentItems>
+      <Execution id="36a58c21-6b73-4518-ba03-e27e6b689940" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuSolverTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PairsBySubSquareTest" />
+    </UnitTest>
+    <UnitTest name="TotalUncoversTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="2399e5e9-33b2-7f7a-c355-bc5e0c3626d2">
+      <DeploymentItems>
+        <DeploymentItem filename="Sudoku.dll" />
+      </DeploymentItems>
+      <Execution id="49871677-f557-46e5-90b4-f8e79abc5810" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuPuzzleTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TotalUncoversTest" />
+    </UnitTest>
+    <UnitTest name="UncoverSquareTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="772b16a3-1ab2-0bee-538a-2e94c347e7a1">
+      <DeploymentItems>
+        <DeploymentItem filename="Sudoku.dll" />
+      </DeploymentItems>
+      <Execution id="0ed6c1a8-6319-4bdb-a1b7-4ec01a65bb87" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuPuzzleTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UncoverSquareTest" />
+    </UnitTest>
+    <UnitTest name="TestSudokuPuzzleSolver" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="80906e2f-5edd-4386-f241-db74d6472a2a">
+      <Execution id="cf2c51a8-2ada-49bb-84d1-0a4f43557f79" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.TestCreateSudoku, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSudokuPuzzleSolver" />
+    </UnitTest>
+    <UnitTest name="Step1ApplyNumbersTest" storage="c:\bruce n\programming\sudoku\testsudoku\bin\debug\testsudoku.dll" id="85399043-6158-4f9f-db25-a515117aca42">
+      <DeploymentItems>
+        <DeploymentItem filename="Sudoku.dll" />
+      </DeploymentItems>
+      <Execution id="0bbddacf-bc8b-480d-923b-20a092ea36b7" />
+      <TestMethod codeBase="C:/Bruce N/Programming/Sudoku/TestSudoku/bin/Debug/TestSudoku.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSudoku.SudokuSolverTest, TestSudoku, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Step1ApplyNumbersTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="486f69e0-56fc-2037-29f3-157fb3ae50a3" executionId="2583cc3d-7055-44f1-ab18-553013d805a0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="67db4d28-f094-a340-ae25-66f3a5741beb" executionId="18ab2209-450b-4000-a83e-6f911354b917" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fa9b5a98-11df-cc49-fac3-46a2c0f64ad4" executionId="8763dd1a-66ec-4815-9007-a0f6dc4a2f66" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b1184f2-6210-8f2c-db67-fcb554f7c797" executionId="9eff7cbe-6318-4bcb-b356-4b437b672558" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c786f71b-7d10-1c2a-4b32-86a35b6a4f84" executionId="03d33870-d165-49f6-bf56-4a4b191dd218" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd354d43-207a-04dc-f6e6-9f0e1d3caca6" executionId="62fc7b5c-66af-4fa1-97a7-19422bfd544e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="85399043-6158-4f9f-db25-a515117aca42" executionId="0bbddacf-bc8b-480d-923b-20a092ea36b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aabce983-0847-8133-b6b4-ae8b0475dffb" executionId="4cd5f187-6882-4f5d-a47e-08134b75aac1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="04491180-eae4-f06f-187d-ebc0638faa7d" executionId="4a7f7ce5-c99e-4b22-a236-7f29062163f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="716751e5-4a8b-99ba-38de-904dcf99d413" executionId="01d8b5a4-aff9-4d5e-84d1-f1a0fed8f0b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6b9b857f-bbd3-0295-780c-7d7ce180e683" executionId="918578e7-b334-4049-8e4b-0f36eca51add" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ebf6dfdb-90cf-f38c-6018-faa540ba0d72" executionId="5d1a4343-af96-48fb-aedb-6c7ef5fe61f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1a1703db-8eff-c9cf-7c21-727ed5f67909" executionId="bbc52923-cec3-42bb-9f07-4892ca33e70e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f22be3fe-e6de-c94d-69d0-1f8a2b594bcc" executionId="eeffb3cd-973e-4e5a-ab6c-375be8e8f88e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fb8d0f66-1952-3fa5-f41f-3e992361d3ef" executionId="26562a82-876c-4b4e-8826-bf0e50a1e271" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6088445e-ad5f-0116-dac2-af0a24e5b1e7" executionId="36a58c21-6b73-4518-ba03-e27e6b689940" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="50d73d16-c467-1990-6c2f-20f749cde691" executionId="b2fdca2b-4655-45e3-ba85-9398fbb2dcee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4a57bcbc-c2e0-21d9-7139-dd191b24dab5" executionId="18fbb08f-7dcd-4ca5-8f1b-749100a61242" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="91db702d-a069-121c-623e-6db4435b1aba" executionId="8001c005-f23d-462e-ba9f-5cedfd36d4d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32c2c6f6-2474-8918-6297-2116ff97cfeb" executionId="c5d746af-5bcd-42b9-8770-e7af8aa0977c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c37c5030-5bf8-5a4d-859d-184581b22311" executionId="67cc90b5-a709-4a36-baeb-aca437aad28b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a5bbbdc5-93ee-df0d-3653-ee172d550aca" executionId="91b0b1d4-f87a-406d-9f3e-936f295a986f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1ad507a0-5b9a-581b-e458-ab84bc32d160" executionId="1971d697-cd3c-41a4-8df7-1802ea0b9b97" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bc6cc949-a9b9-986d-2e2e-93bd454a56b0" executionId="55c22ca9-3347-423c-bdb5-b238a46795a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="88f57e9b-c6f8-a8c9-6bd0-511ff05cfb16" executionId="58c0d5b6-94e8-47e6-91ab-9d70898c6b1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8828e05c-a42f-e363-e341-6794a476517b" executionId="845cb048-038b-458e-8e29-03baba18e2d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cbaf69e5-bb1d-8df0-d456-f15e409b1c45" executionId="044912ad-9842-4a28-9f39-ecec9814b639" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="80155721-06d3-979c-8f6d-29dc41f17ef1" executionId="df051e80-4843-455e-83f8-f68e9a4f6d36" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="464cd04b-06f9-910c-d478-a5fa37cd2247" executionId="49edc51c-509c-406f-858e-cef10e2ba3bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2399e5e9-33b2-7f7a-c355-bc5e0c3626d2" executionId="49871677-f557-46e5-90b4-f8e79abc5810" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c57d37a4-c06f-80ba-35d3-1145d1503361" executionId="3b6f69e9-3c84-42c8-8b8e-fa0ef6dc8230" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b101bcbb-27a3-55ce-2dd9-0f0f3a5bb264" executionId="54384b58-5953-4eff-9102-aad8432f36de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="772b16a3-1ab2-0bee-538a-2e94c347e7a1" executionId="0ed6c1a8-6319-4bdb-a1b7-4ec01a65bb87" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="df32b477-d68b-2a2b-b301-d704a740e06b" executionId="f6e408c9-e271-4e26-9e0c-2adde876a1e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8a2dec74-abc6-a0c9-7c0e-21c6df6bc9b0" executionId="ed0d6dfb-f8e3-4468-ad46-308d3c0fd85b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eb717bdb-b632-ea94-6daf-0927684c8ade" executionId="25f72a9e-112c-42c9-8a35-d117ab786ff6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8759e944-8653-b38d-1a0f-ebb1d8b476a9" executionId="1c719c22-5d1b-40ed-b8ab-f90753f22d08" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="933e71ec-78d1-7194-9f14-c69be4833ba2" executionId="4757eb1e-9d36-41a3-a482-58224a18f4f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2bb07ee-ec47-2144-fb15-eb859f70a4fb" executionId="aa49dbfc-9b60-4dae-b571-84f545a320ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="80906e2f-5edd-4386-f241-db74d6472a2a" executionId="cf2c51a8-2ada-49bb-84d1-0a4f43557f79" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2583cc3d-7055-44f1-ab18-553013d805a0" testId="486f69e0-56fc-2037-29f3-157fb3ae50a3" testName="FullSolverTest" computerName="USSLCL00134" duration="00:00:00.0990805" startTime="2012-03-16T22:05:09.7531414-06:00" endTime="2012-03-16T22:05:10.6579530-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2583cc3d-7055-44f1-ab18-553013d805a0">
+    </UnitTestResult>
+    <UnitTestResult executionId="18ab2209-450b-4000-a83e-6f911354b917" testId="67db4d28-f094-a340-ae25-66f3a5741beb" testName="SudokuSolverConstructorTest" computerName="USSLCL00134" duration="00:00:00.2523838" startTime="2012-03-16T22:05:10.6891534-06:00" endTime="2012-03-16T22:05:10.9699570-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18ab2209-450b-4000-a83e-6f911354b917">
+    </UnitTestResult>
+    <UnitTestResult executionId="8763dd1a-66ec-4815-9007-a0f6dc4a2f66" testId="fa9b5a98-11df-cc49-fac3-46a2c0f64ad4" testName="CheckForSolutionTest" computerName="USSLCL00134" duration="00:00:00.0014813" startTime="2012-03-16T22:05:10.9699570-06:00" endTime="2012-03-16T22:05:10.9855572-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8763dd1a-66ec-4815-9007-a0f6dc4a2f66">
+    </UnitTestResult>
+    <UnitTestResult executionId="9eff7cbe-6318-4bcb-b356-4b437b672558" testId="7b1184f2-6210-8f2c-db67-fcb554f7c797" testName="DifficultyLevelTest" computerName="USSLCL00134" duration="00:00:00.3314810" startTime="2012-03-16T22:05:11.0011574-06:00" endTime="2012-03-16T22:05:11.3287616-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9eff7cbe-6318-4bcb-b356-4b437b672558">
+    </UnitTestResult>
+    <UnitTestResult executionId="03d33870-d165-49f6-bf56-4a4b191dd218" testId="c786f71b-7d10-1c2a-4b32-86a35b6a4f84" testName="FindSolutionTest" computerName="USSLCL00134" duration="00:00:00.1097822" startTime="2012-03-16T22:05:11.3443618-06:00" endTime="2012-03-16T22:05:11.4691634-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="03d33870-d165-49f6-bf56-4a4b191dd218">
+    </UnitTestResult>
+    <UnitTestResult executionId="62fc7b5c-66af-4fa1-97a7-19422bfd544e" testId="dd354d43-207a-04dc-f6e6-9f0e1d3caca6" testName="GetSolutionTest" computerName="USSLCL00134" duration="00:00:00.0014274" startTime="2012-03-16T22:05:11.4847636-06:00" endTime="2012-03-16T22:05:11.4847636-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62fc7b5c-66af-4fa1-97a7-19422bfd544e">
+    </UnitTestResult>
+    <UnitTestResult executionId="0bbddacf-bc8b-480d-923b-20a092ea36b7" testId="85399043-6158-4f9f-db25-a515117aca42" testName="Step1ApplyNumbersTest" computerName="USSLCL00134" duration="00:00:00.0040947" startTime="2012-03-16T22:05:11.5003638-06:00" endTime="2012-03-16T22:05:11.5159640-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0bbddacf-bc8b-480d-923b-20a092ea36b7">
+    </UnitTestResult>
+    <UnitTestResult executionId="4cd5f187-6882-4f5d-a47e-08134b75aac1" testId="aabce983-0847-8133-b6b4-ae8b0475dffb" testName="Step2UseSingletonsTest" computerName="USSLCL00134" duration="00:00:00.0025568" startTime="2012-03-16T22:05:11.5159640-06:00" endTime="2012-03-16T22:05:11.5315642-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4cd5f187-6882-4f5d-a47e-08134b75aac1">
+    </UnitTestResult>
+    <UnitTestResult executionId="4a7f7ce5-c99e-4b22-a236-7f29062163f7" testId="04491180-eae4-f06f-187d-ebc0638faa7d" testName="Step3UsePairsTest" computerName="USSLCL00134" duration="00:00:00.0087172" startTime="2012-03-16T22:05:11.5315642-06:00" endTime="2012-03-16T22:05:11.5627646-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a7f7ce5-c99e-4b22-a236-7f29062163f7">
+    </UnitTestResult>
+    <UnitTestResult executionId="01d8b5a4-aff9-4d5e-84d1-f1a0fed8f0b5" testId="716751e5-4a8b-99ba-38de-904dcf99d413" testName="PuzzleTest" computerName="USSLCL00134" duration="00:00:00.1116958" startTime="2012-03-16T22:05:11.5627646-06:00" endTime="2012-03-16T22:05:11.6875662-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="01d8b5a4-aff9-4d5e-84d1-f1a0fed8f0b5">
+    </UnitTestResult>
+    <UnitTestResult executionId="918578e7-b334-4049-8e4b-0f36eca51add" testId="6b9b857f-bbd3-0295-780c-7d7ce180e683" testName="SingletonsByRowTest" computerName="USSLCL00134" duration="00:00:00.0011875" startTime="2012-03-16T22:05:11.7031664-06:00" endTime="2012-03-16T22:05:11.7031664-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="918578e7-b334-4049-8e4b-0f36eca51add">
+    </UnitTestResult>
+    <UnitTestResult executionId="5d1a4343-af96-48fb-aedb-6c7ef5fe61f9" testId="ebf6dfdb-90cf-f38c-6018-faa540ba0d72" testName="SingletonsByColumnTest" computerName="USSLCL00134" duration="00:00:00.0012799" startTime="2012-03-16T22:05:11.7187666-06:00" endTime="2012-03-16T22:05:11.7187666-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d1a4343-af96-48fb-aedb-6c7ef5fe61f9">
+    </UnitTestResult>
+    <UnitTestResult executionId="bbc52923-cec3-42bb-9f07-4892ca33e70e" testId="1a1703db-8eff-c9cf-7c21-727ed5f67909" testName="SingletonsBySubsquareTest" computerName="USSLCL00134" duration="00:00:00.0013677" startTime="2012-03-16T22:05:11.7343668-06:00" endTime="2012-03-16T22:05:11.7499670-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bbc52923-cec3-42bb-9f07-4892ca33e70e">
+    </UnitTestResult>
+    <UnitTestResult executionId="eeffb3cd-973e-4e5a-ab6c-375be8e8f88e" testId="f22be3fe-e6de-c94d-69d0-1f8a2b594bcc" testName="ClearGuessesTest" computerName="USSLCL00134" duration="00:00:00.0025976" startTime="2012-03-16T22:05:11.7499670-06:00" endTime="2012-03-16T22:05:11.7655672-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eeffb3cd-973e-4e5a-ab6c-375be8e8f88e">
+    </UnitTestResult>
+    <UnitTestResult executionId="26562a82-876c-4b4e-8826-bf0e50a1e271" testId="fb8d0f66-1952-3fa5-f41f-3e992361d3ef" testName="PairsByRowAndColumnTest" computerName="USSLCL00134" duration="00:00:00.0057007" startTime="2012-03-16T22:05:11.7655672-06:00" endTime="2012-03-16T22:05:11.7811674-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="26562a82-876c-4b4e-8826-bf0e50a1e271">
+    </UnitTestResult>
+    <UnitTestResult executionId="36a58c21-6b73-4518-ba03-e27e6b689940" testId="6088445e-ad5f-0116-dac2-af0a24e5b1e7" testName="PairsBySubSquareTest" computerName="USSLCL00134" duration="00:00:00.0027374" startTime="2012-03-16T22:05:11.7967676-06:00" endTime="2012-03-16T22:05:11.8123678-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36a58c21-6b73-4518-ba03-e27e6b689940">
+    </UnitTestResult>
+    <UnitTestResult executionId="b2fdca2b-4655-45e3-ba85-9398fbb2dcee" testId="50d73d16-c467-1990-6c2f-20f749cde691" testName="TestProblemsWithStep3FindPairs" computerName="USSLCL00134" duration="00:00:00.0127531" startTime="2012-03-16T22:05:11.8123678-06:00" endTime="2012-03-16T22:05:11.8279680-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b2fdca2b-4655-45e3-ba85-9398fbb2dcee">
+      <Output>
+        <DebugTrace>Current Grid:
+004083120
+030002578
+008710034
+000300000
+853100247
+069007300
+300000010
+940071863
+000030090
+
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="18fbb08f-7dcd-4ca5-8f1b-749100a61242" testId="4a57bcbc-c2e0-21d9-7139-dd191b24dab5" testName="SudokuGridConstructorTest" computerName="USSLCL00134" duration="00:00:00.0003780" startTime="2012-03-16T22:05:11.8435682-06:00" endTime="2012-03-16T22:05:11.8435682-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18fbb08f-7dcd-4ca5-8f1b-749100a61242">
+    </UnitTestResult>
+    <UnitTestResult executionId="8001c005-f23d-462e-ba9f-5cedfd36d4d6" testId="91db702d-a069-121c-623e-6db4435b1aba" testName="AttemptSetSudokuArrayTest" computerName="USSLCL00134" duration="00:00:00.0019290" startTime="2012-03-16T22:05:11.8591684-06:00" endTime="2012-03-16T22:05:11.8591684-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8001c005-f23d-462e-ba9f-5cedfd36d4d6">
+    </UnitTestResult>
+    <UnitTestResult executionId="c5d746af-5bcd-42b9-8770-e7af8aa0977c" testId="32c2c6f6-2474-8918-6297-2116ff97cfeb" testName="BackSquareTest" computerName="USSLCL00134" duration="00:00:00.0012576" startTime="2012-03-16T22:05:11.8747686-06:00" endTime="2012-03-16T22:05:11.8903688-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c5d746af-5bcd-42b9-8770-e7af8aa0977c">
+    </UnitTestResult>
+    <UnitTestResult executionId="67cc90b5-a709-4a36-baeb-aca437aad28b" testId="c37c5030-5bf8-5a4d-859d-184581b22311" testName="FindValidNumberForTest" computerName="USSLCL00134" duration="00:00:00.0019409" startTime="2012-03-16T22:05:11.8903688-06:00" endTime="2012-03-16T22:05:11.9059690-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67cc90b5-a709-4a36-baeb-aca437aad28b">
+    </UnitTestResult>
+    <UnitTestResult executionId="91b0b1d4-f87a-406d-9f3e-936f295a986f" testId="a5bbbdc5-93ee-df0d-3653-ee172d550aca" testName="IsValidTest" computerName="USSLCL00134" duration="00:00:00.0008907" startTime="2012-03-16T22:05:11.9059690-06:00" endTime="2012-03-16T22:05:11.9215692-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="91b0b1d4-f87a-406d-9f3e-936f295a986f">
+    </UnitTestResult>
+    <UnitTestResult executionId="1971d697-cd3c-41a4-8df7-1802ea0b9b97" testId="1ad507a0-5b9a-581b-e458-ab84bc32d160" testName="IsValidArrayTest" computerName="USSLCL00134" duration="00:00:00.0008788" startTime="2012-03-16T22:05:11.9215692-06:00" endTime="2012-03-16T22:05:11.9371694-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1971d697-cd3c-41a4-8df7-1802ea0b9b97">
+    </UnitTestResult>
+    <UnitTestResult executionId="55c22ca9-3347-423c-bdb5-b238a46795a9" testId="bc6cc949-a9b9-986d-2e2e-93bd454a56b0" testName="MakeCopyTest" computerName="USSLCL00134" duration="00:00:00.0018574" startTime="2012-03-16T22:05:11.9371694-06:00" endTime="2012-03-16T22:05:11.9527696-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="55c22ca9-3347-423c-bdb5-b238a46795a9">
+    </UnitTestResult>
+    <UnitTestResult executionId="58c0d5b6-94e8-47e6-91ab-9d70898c6b1e" testId="88f57e9b-c6f8-a8c9-6bd0-511ff05cfb16" testName="NextSquareTest" computerName="USSLCL00134" duration="00:00:00.0007452" startTime="2012-03-16T22:05:11.9527696-06:00" endTime="2012-03-16T22:05:11.9683698-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="58c0d5b6-94e8-47e6-91ab-9d70898c6b1e">
+    </UnitTestResult>
+    <UnitTestResult executionId="845cb048-038b-458e-8e29-03baba18e2d3" testId="8828e05c-a42f-e363-e341-6794a476517b" testName="SetSudokuArrayTest" computerName="USSLCL00134" duration="00:00:00.0004465" startTime="2012-03-16T22:05:11.9683698-06:00" endTime="2012-03-16T22:05:11.9839700-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="845cb048-038b-458e-8e29-03baba18e2d3">
+    </UnitTestResult>
+    <UnitTestResult executionId="044912ad-9842-4a28-9f39-ecec9814b639" testId="cbaf69e5-bb1d-8df0-d456-f15e409b1c45" testName="SudokuPuzzleConstructorTest" computerName="USSLCL00134" duration="00:00:00.3464399" startTime="2012-03-16T22:05:11.9839700-06:00" endTime="2012-03-16T22:05:12.3427746-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="044912ad-9842-4a28-9f39-ecec9814b639">
+    </UnitTestResult>
+    <UnitTestResult executionId="df051e80-4843-455e-83f8-f68e9a4f6d36" testId="80155721-06d3-979c-8f6d-29dc41f17ef1" testName="AssessDifficultyTest" computerName="USSLCL00134" duration="00:00:00.0221298" startTime="2012-03-16T22:05:12.3583748-06:00" endTime="2012-03-16T22:05:12.3895752-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="df051e80-4843-455e-83f8-f68e9a4f6d36">
+    </UnitTestResult>
+    <UnitTestResult executionId="49edc51c-509c-406f-858e-cef10e2ba3bb" testId="464cd04b-06f9-910c-d478-a5fa37cd2247" testName="InitializePuzzleTest" computerName="USSLCL00134" duration="00:00:00.0015975" startTime="2012-03-16T22:05:12.3895752-06:00" endTime="2012-03-16T22:05:12.4051754-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49edc51c-509c-406f-858e-cef10e2ba3bb">
+    </UnitTestResult>
+    <UnitTestResult executionId="49871677-f557-46e5-90b4-f8e79abc5810" testId="2399e5e9-33b2-7f7a-c355-bc5e0c3626d2" testName="TotalUncoversTest" computerName="USSLCL00134" duration="00:00:00.0189655" startTime="2012-03-16T22:05:12.4207756-06:00" endTime="2012-03-16T22:05:12.4363758-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49871677-f557-46e5-90b4-f8e79abc5810">
+    </UnitTestResult>
+    <UnitTestResult executionId="3b6f69e9-3c84-42c8-8b8e-fa0ef6dc8230" testId="c57d37a4-c06f-80ba-35d3-1145d1503361" testName="UncoverInSubSquareTest" computerName="USSLCL00134" duration="00:00:00.0015779" startTime="2012-03-16T22:05:12.4519760-06:00" endTime="2012-03-16T22:05:12.4519760-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b6f69e9-3c84-42c8-8b8e-fa0ef6dc8230">
+    </UnitTestResult>
+    <UnitTestResult executionId="54384b58-5953-4eff-9102-aad8432f36de" testId="b101bcbb-27a3-55ce-2dd9-0f0f3a5bb264" testName="UncoverPuzzleTest" computerName="USSLCL00134" duration="00:00:00.1708529" startTime="2012-03-16T22:05:12.4675762-06:00" endTime="2012-03-16T22:05:12.6391784-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="54384b58-5953-4eff-9102-aad8432f36de">
+    </UnitTestResult>
+    <UnitTestResult executionId="0ed6c1a8-6319-4bdb-a1b7-4ec01a65bb87" testId="772b16a3-1ab2-0bee-538a-2e94c347e7a1" testName="UncoverSquareTest" computerName="USSLCL00134" duration="00:00:00.0015001" startTime="2012-03-16T22:05:12.6703788-06:00" endTime="2012-03-16T22:05:12.6703788-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ed6c1a8-6319-4bdb-a1b7-4ec01a65bb87">
+    </UnitTestResult>
+    <UnitTestResult executionId="f6e408c9-e271-4e26-9e0c-2adde876a1e6" testId="df32b477-d68b-2a2b-b301-d704a740e06b" testName="UncoverCountBySubSquareTest" computerName="USSLCL00134" duration="00:00:00.0007729" startTime="2012-03-16T22:05:12.6859790-06:00" endTime="2012-03-16T22:05:12.7015792-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f6e408c9-e271-4e26-9e0c-2adde876a1e6">
+    </UnitTestResult>
+    <UnitTestResult executionId="ed0d6dfb-f8e3-4468-ad46-308d3c0fd85b" testId="8a2dec74-abc6-a0c9-7c0e-21c6df6bc9b0" testName="FindSolveablePuzzleTest" computerName="USSLCL00134" duration="00:00:00.1530230" startTime="2012-03-16T22:05:12.7171794-06:00" endTime="2012-03-16T22:05:12.8887816-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed0d6dfb-f8e3-4468-ad46-308d3c0fd85b">
+    </UnitTestResult>
+    <UnitTestResult executionId="25f72a9e-112c-42c9-8a35-d117ab786ff6" testId="eb717bdb-b632-ea94-6daf-0927684c8ade" testName="TestUnsolveableToTrivalTransition" computerName="USSLCL00134" duration="00:00:00.0106016" startTime="2012-03-16T22:05:12.8887816-06:00" endTime="2012-03-16T22:05:12.9199820-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25f72a9e-112c-42c9-8a35-d117ab786ff6">
+    </UnitTestResult>
+    <UnitTestResult executionId="1c719c22-5d1b-40ed-b8ab-f90753f22d08" testId="8759e944-8653-b38d-1a0f-ebb1d8b476a9" testName="TestSingletonsToFillInPuzzle" computerName="USSLCL00134" duration="00:00:00.0069784" startTime="2012-03-16T22:05:12.9355822-06:00" endTime="2012-03-16T22:05:12.9511824-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c719c22-5d1b-40ed-b8ab-f90753f22d08">
+    </UnitTestResult>
+    <UnitTestResult executionId="4757eb1e-9d36-41a3-a482-58224a18f4f5" testId="933e71ec-78d1-7194-9f14-c69be4833ba2" testName="WriteOutSudokuGridTest" computerName="USSLCL00134" duration="00:00:00.0005181" startTime="2012-03-16T22:05:12.9511824-06:00" endTime="2012-03-16T22:05:12.9667826-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4757eb1e-9d36-41a3-a482-58224a18f4f5">
+    </UnitTestResult>
+    <UnitTestResult executionId="aa49dbfc-9b60-4dae-b571-84f545a320ed" testId="c2bb07ee-ec47-2144-fb15-eb859f70a4fb" testName="TestSudokuSolutionCreation" computerName="USSLCL00134" duration="00:00:00.0700311" startTime="2012-03-16T22:05:12.9667826-06:00" endTime="2012-03-16T22:05:13.0447836-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa49dbfc-9b60-4dae-b571-84f545a320ed">
+    </UnitTestResult>
+    <UnitTestResult executionId="cf2c51a8-2ada-49bb-84d1-0a4f43557f79" testId="80906e2f-5edd-4386-f241-db74d6472a2a" testName="TestSudokuPuzzleSolver" computerName="USSLCL00134" duration="00:00:08.2904415" startTime="2012-03-16T22:05:13.0603838-06:00" endTime="2012-03-16T22:05:21.3596902-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cf2c51a8-2ada-49bb-84d1-0a4f43557f79">
+      <Output>
+        <DebugTrace>*****
+Average Uncovers: 41
+% Trival: 92
+% Easy: 8
+% Medium: 0
+% Hard: 0
+*****
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

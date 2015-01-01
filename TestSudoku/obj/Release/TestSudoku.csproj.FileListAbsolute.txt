@@ -1,0 +1,18 @@
+C:\Bruce N\Programming\Sudoku\TestSudoku\bin\Release\TestSudoku.dll
+C:\Bruce N\Programming\Sudoku\TestSudoku\bin\Release\TestSudoku.pdb
+C:\Bruce N\Programming\Sudoku\TestSudoku\bin\Release\Sudoku.dll
+C:\Bruce N\Programming\Sudoku\TestSudoku\bin\Release\Sudoku.pdb
+C:\Bruce N\Programming\Sudoku\TestSudoku\bin\Release\Sudoku_Accessor.dll
+C:\Bruce N\Programming\Sudoku\TestSudoku\bin\Release\Sudoku_Accessor.pdb
+C:\Bruce N\Programming\Sudoku\TestSudoku\obj\Release\ResolveAssemblyReference.cache
+C:\Bruce N\Programming\Sudoku\TestSudoku\obj\Release\TestSudoku.dll
+C:\Bruce N\Programming\Sudoku\TestSudoku\obj\Release\TestSudoku.pdb
+C:\Programming\Sudoku\TestSudoku\bin\Release\TestSudoku.dll
+C:\Programming\Sudoku\TestSudoku\bin\Release\TestSudoku.pdb
+C:\Programming\Sudoku\TestSudoku\bin\Release\Sudoku.dll
+C:\Programming\Sudoku\TestSudoku\bin\Release\Sudoku.pdb
+C:\Programming\Sudoku\TestSudoku\bin\Release\Sudoku_Accessor.dll
+C:\Programming\Sudoku\TestSudoku\bin\Release\Sudoku_Accessor.pdb
+C:\Programming\Sudoku\TestSudoku\obj\Release\TestSudoku.csprojResolveAssemblyReference.cache
+C:\Programming\Sudoku\TestSudoku\obj\Release\TestSudoku.dll
+C:\Programming\Sudoku\TestSudoku\obj\Release\TestSudoku.pdb

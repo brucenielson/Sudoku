@@ -1,0 +1,25 @@
+C:\Programming\AILab\TestSudoku\bin\Debug\TestSudoku.dll
+C:\Programming\AILab\TestSudoku\bin\Debug\TestSudoku.pdb
+C:\Programming\AILab\TestSudoku\bin\Debug\Sudoku.dll
+C:\Programming\AILab\TestSudoku\bin\Debug\Sudoku.pdb
+C:\Programming\AILab\TestSudoku\obj\Debug\ResolveAssemblyReference.cache
+C:\Programming\AILab\TestSudoku\obj\Debug\TestSudoku.dll
+C:\Programming\AILab\TestSudoku\obj\Debug\TestSudoku.pdb
+C:\Programming\Sudoku\TestSudoku\bin\Debug\TestSudoku.dll
+C:\Programming\Sudoku\TestSudoku\bin\Debug\TestSudoku.pdb
+C:\Programming\Sudoku\TestSudoku\bin\Debug\Sudoku.dll
+C:\Programming\Sudoku\TestSudoku\bin\Debug\Sudoku.pdb
+C:\Programming\Sudoku\TestSudoku\bin\Debug\Sudoku_Accessor.dll
+C:\Programming\Sudoku\TestSudoku\bin\Debug\Sudoku_Accessor.pdb
+C:\Programming\Sudoku\TestSudoku\obj\Debug\ResolveAssemblyReference.cache
+C:\Programming\Sudoku\TestSudoku\obj\Debug\TestSudoku.dll
+C:\Programming\Sudoku\TestSudoku\obj\Debug\TestSudoku.pdb
+C:\Bruce N\Programming\Sudoku\TestSudoku\bin\Debug\TestSudoku.dll
+C:\Bruce N\Programming\Sudoku\TestSudoku\bin\Debug\TestSudoku.pdb
+C:\Bruce N\Programming\Sudoku\TestSudoku\bin\Debug\Sudoku.dll
+C:\Bruce N\Programming\Sudoku\TestSudoku\bin\Debug\Sudoku.pdb
+C:\Bruce N\Programming\Sudoku\TestSudoku\bin\Debug\Sudoku_Accessor.dll
+C:\Bruce N\Programming\Sudoku\TestSudoku\bin\Debug\Sudoku_Accessor.pdb
+C:\Bruce N\Programming\Sudoku\TestSudoku\obj\Debug\ResolveAssemblyReference.cache
+C:\Bruce N\Programming\Sudoku\TestSudoku\obj\Debug\TestSudoku.dll
+C:\Bruce N\Programming\Sudoku\TestSudoku\obj\Debug\TestSudoku.pdb

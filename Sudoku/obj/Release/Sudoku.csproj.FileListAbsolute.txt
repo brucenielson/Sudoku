@@ -1,0 +1,10 @@
+C:\Bruce N\Programming\Sudoku\Sudoku\bin\Release\Sudoku.dll
+C:\Bruce N\Programming\Sudoku\Sudoku\bin\Release\Sudoku.pdb
+C:\Bruce N\Programming\Sudoku\Sudoku\obj\Release\ResolveAssemblyReference.cache
+C:\Bruce N\Programming\Sudoku\Sudoku\obj\Release\Sudoku.dll
+C:\Bruce N\Programming\Sudoku\Sudoku\obj\Release\Sudoku.pdb
+C:\Programming\Sudoku\Sudoku\bin\Release\Sudoku.dll
+C:\Programming\Sudoku\Sudoku\bin\Release\Sudoku.pdb
+C:\Programming\Sudoku\Sudoku\obj\Release\Sudoku.dll
+C:\Programming\Sudoku\Sudoku\obj\Release\Sudoku.pdb
+C:\Programming\Sudoku\Sudoku\obj\Release\Sudoku.csprojResolveAssemblyReference.cache

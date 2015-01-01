@@ -1,0 +1,38 @@
+﻿<Window x:Class="SudokuGame.SudokuPrintGrid"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:tc="clr-namespace:SudokuGame.TypeConverters"
+        Title="Print Sudoku Game" Top="0" Left="0" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="500" Width="500">
+    <Window.Resources>
+        <tc:SudokuNumberTypeConverter x:Key="sntc"/>
+    </Window.Resources>
+    <Grid Width="Auto" Height="Auto">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="72*" />
+            <ColumnDefinition Width="306*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="530*" />
+            <RowDefinition Height="40*" />
+        </Grid.RowDefinitions>
+        <ItemsControl Name="ItemsControl1" ItemsSource="{Binding Puzzle}" Grid.ColumnSpan="4">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Margin="15,15,15,1"/>                    
+                </ItemsPanelTemplate>            
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderBrush="Black" BorderThickness="{Binding Path=Tickness}">
+                        <StackPanel>
+                            <TextBlock Background="{Binding Path=Color}" Text="{Binding Path=Value, Converter={StaticResource sntc}}" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="2,4,2,2"/>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+        <Button Content="Print" Grid.Column="0" Grid.Row="1" Height="20
+                " Margin="1,1,1,1" HorizontalAlignment="Center" Name="Print" Width="55" Click="Print_Click" />
+        <TextBlock Grid.Column="1" Grid.Row="1" FontSize="12" Height="Auto" HorizontalAlignment="Left" Margin="2,2,2,2" Name="PuzzleInfo" Text="{Binding Path=Puzzle.PuzzleInfo}" VerticalAlignment="Center" />
+    </Grid>
+</Window>
